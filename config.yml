@@ -72,7 +72,6 @@ homebrew_cask_apps:
   - affinity-designer
   - appcleaner
   - audacity
-  - avast-security
   - bartender
   - balenaetcher
   - brave-browser
@@ -103,7 +102,6 @@ homebrew_cask_apps:
   - libreoffice
   - libreoffice-language-pack
   - licecap
-  - logitech-options
   - malwarebytes
   - macpass
   - microsoft-office
@@ -129,7 +127,6 @@ homebrew_cask_apps:
   - sublime-text
   - table-tool
   - the-unarchiver
-  - transmit
   - vagrant
   - virtualbox
   - virtualbox-extension-pack
