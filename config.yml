@@ -6,7 +6,7 @@ configure_terminal: true
 configure_osx: true
 
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: false
+configure_dock: true
 dockitems_remove:
  - Launchpad
  - TV
@@ -21,11 +21,64 @@ dockitems_remove:
  - Notes
  - 'System Preferences'
  - 'App Store'
-dockitems_persist: []
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
-#   pos: 5
-
+dockitems_persist:
+ - name: "Brave Browser"
+   path: "/Applications/Brave Browser.app/"
+   pos: 2
+ - name: "Spotfiy"
+   path: "/Applications/Spotify.app/"
+   pos: 3
+ - name: "Books"
+   path: "/Applications/Books.app/"
+   pos: 4
+ - name: "Kindle"
+   path: "/Applications/Kindle.app/"
+   pos: 5
+ - name: "Calendar"
+   path: "/Applications/Books.app/"
+   pos: 6
+ - name: "OmniFocus"
+   path: "/Applications/OmniFocus.app/"
+   pos: 7
+ - name: "Evernote"
+   path: "/Applications/Evernote.app/"
+   pos: 8
+ - name: "XMind"
+   path: "/Applications/XMind.app/"
+   pos: 9
+ - name: "Scrivener"
+   path: "/Applications/Scrivener.app/"
+   pos: 10
+ - name: "Affinity Photo"
+   path: "/Applications/Affinity Photo.app/"
+   pos: 11
+ - name: "Affinity Designer"
+   path: "/Applications/Affinity Designer.app/"
+   pos: 12
+ - name: "Pinegrow"
+   path: "/Applications/Pinegrow.app/"
+   pos: 14   
+ - name: "PhpStorm"
+   path: "/Applications/PhpStorm.app/"
+   pos: 14
+ - name: "Visual Studio Code"
+   path: "/Applications/Visual Studio Code.app/"
+   pos: 15
+ - name: "iTerm"
+   path: "/Applications/iTerm.app/"
+   pos: 16
+ - name: "Cyberduck"
+   path: "/Applications/Cyberduck.app/"
+   pos: 17
+ - name: "Postman"
+   path: "/Applications/Postman.app/"
+   pos: 18
+ - name: "Webex"
+   path: "/Applications/Webex.app/"
+   pos: 19
+ - name: "MacPass"
+   path: "/Applications/MacPass.app/"
+   pos: 21
 configure_sudoers: false
 sudoers_custom_config: ''
 # Example:
@@ -77,8 +130,6 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - affinity-photo
-  - affinity-designer
   - appcleaner
   - audacity
   - bartender
@@ -146,8 +197,9 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
+  - { id: 824183456, name: "Affiniy Photo" }
+  - { id: 824171161, name: "Affinity Designer" }    
   - { id: 937984704, name: "Amphetamine" }
-  - { id: 1088779979, name: "Mini Calendar" }
 mas_email: "info@openadviser.com"
 mas_password: ""
 
