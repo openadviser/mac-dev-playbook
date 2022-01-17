@@ -159,6 +159,7 @@ homebrew_cask_apps:
   - iina
   - iterm2
   - itsycal
+  - java
   - kindle
   - libreoffice
   - libreoffice-language-pack
